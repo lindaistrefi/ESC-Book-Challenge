@@ -1,0 +1,14 @@
+{
+  "name": "esc-book-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bookChallenge.js",
+  "scripts": {
+    "compile:sass": "sass --no-source-map src/bookChallenge.scss bookChallenge.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}

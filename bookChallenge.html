@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>[ESC] Escape Rooms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="bookChallenge.css"
+    />
+  </head>
+
+  <body>
+    <button id="btn1">test öppna steg 1</button>
+    
+
+    <div class="bookModal">
+      <div class="bookModal__stepOne" hidden>
+        <p class="room-title">Book room</p>
+        <p class="title">"Title of room"</p>
+        <span class="span-title">(Step 1)</span>
+        <p class="bookModal__stepOne--question">
+          What date would you like to come?
+        </p>
+        <label for="date" class="bookModal__stepOne--label">Date</label>
+        <input type="date" id="dateId"/>
+        <button class="bookModal__stepOne--btn">Search available times</button>
+      </div>
+
+      <div class="bookModal__stepTwo" hidden>
+        <label for="name-input">Name</label>
+        <input type="text" id="name-input" class="bookModal__stepTwo--name" />
+        <label for="email-input">E-mail</label>
+        <input type="text" id="email-input" class="bookModal__stepTwo--email" />
+        <label for="time-input">What time?</label>
+        <input type="time" id="time-input" class="bookModal__stepTwo--time" />
+        <label for="number-input">How many participants?</label>
+        <input
+          type="number"
+          id="number-input"
+          class="bookModal__stepTwo--label"
+        />
+        <button class="bookModal__stepTwo--btn">Submit booking</button>
+      </div>
+
+      <div class="bookModal__stepThree" hidden>
+        <h2>Thank you!</h2>
+        <a
+          href="#"
+          class="bookModal__stepThree--btn"
+          >Back to challenges</a
+        >
+      </div>
+    </div>
+
+    <script src="bookChallenge.js"></script>
+  </body>
+</html>

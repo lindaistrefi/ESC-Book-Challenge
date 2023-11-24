@@ -1,0 +1,114 @@
+@media screen and (min-width: 900px) {
+  #btn1 {
+    display: none;
+  }
+  html {
+    background-color: white;
+    position: relative;
+    font-size: 20px;
+    font-family: Roboto;
+    height: 100vh;
+    width: 100%;
+  }
+  .bookModal {
+    height: 100vh;
+    width: 100%;
+    visibility: hidden;
+    font-size: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+    background-color: white;
+  }
+  .bookModal .room-title {
+    margin-right: 1rem;
+  }
+  .bookModal .span-title {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .bookModal__stepOne--question {
+    font-size: 1.3rem;
+    display: flex;
+    position: absolute;
+    margin-top: 7rem;
+  }
+  .bookModal__stepOne--label {
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 11rem;
+  }
+  .bookModal #dateId {
+    position: absolute;
+    margin-top: 13rem;
+    height: 6vh;
+    width: 15rem;
+  }
+  .bookModal__stepOne--btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 3rem;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    border-color: transparent;
+  }
+  .bookModal__stepOne {
+    z-index: 1;
+    padding: 3rem;
+  }
+  .bookModal__stepTwo {
+    padding: 3.5rem;
+  }
+  .bookModal__stepTwo input {
+    height: 5vh;
+    width: 22rem;
+    margin-bottom: 2rem;
+  }
+  .bookModal__stepTwo label,
+  .bookModal__stepTwo input {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .bookModal__stepTwo--btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 3rem;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    border-color: transparent;
+  }
+  .bookModal__stepThree {
+    margin: auto;
+  }
+  .bookModal__stepThree h2 {
+    font-weight: 300;
+  }
+  .bookModal__stepThree--btn {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 899px) {
+  .bookModal {
+    display: none;
+    visibility: hidden;
+  }
+}
